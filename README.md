@@ -92,5 +92,3 @@ container.RegisterFactory(c => new App(c.Resolve<IService>()));
 var app = container.Resolve<App>();
 ```
 
-## License 📜
-This project is released under the MIT License
