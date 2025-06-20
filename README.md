@@ -2,7 +2,7 @@
 
 A simple and lightweight dependency injection (DI) container written in C#.
 
-## Features
+## Features ✦
 
 - Register factories and instances with optional tags.
 - Support for singleton instances via `.AsSingle()`.
@@ -10,9 +10,9 @@ A simple and lightweight dependency injection (DI) container written in C#.
 - Optional hierarchical container structure (parent containers).
 - Automatic disposal of `IDisposable` instances.
 
-## Getting Started
+## Getting Started 🚀
 
-##№ Installation
+### Installation
 
 Just include `DIContainer.cs` and `DIEntry.cs` in your project under the `RostCont` namespace.
 
@@ -73,7 +73,7 @@ DIContainer and its entries implement IDisposable. Call Dispose() to clean up al
 container.Dispose();
 ```
 
-# Example
+## Example 🧩
 
 ```csharp
 public interface IService {}
@@ -91,3 +91,6 @@ container.RegisterFactory(c => new App(c.Resolve<IService>()));
 
 var app = container.Resolve<App>();
 ```
+
+## License 📜
+This project is released under the MIT License
