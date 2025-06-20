@@ -59,7 +59,9 @@ var child = new DIContainer(parent);
 var config = child.Resolve<Config>(); // resolved from parent
 ```
 
-###Error Handling
+
+
+### Error Handling
 - Throws an exception if a dependency is already registered with the same tag and type.
 - Detects and throws an error on cyclic dependencies.
 - Throws an exception if a dependency cannot be resolved.
