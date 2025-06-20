@@ -2,7 +2,7 @@
 
 A simple and lightweight dependency injection (DI) container written in C#.
 
-## Features ✦
+## ✦ Features
 
 - Register factories and instances with optional tags.
 - Support for singleton instances via `.AsSingle()`.
@@ -10,7 +10,7 @@ A simple and lightweight dependency injection (DI) container written in C#.
 - Optional hierarchical container structure (parent containers).
 - Automatic disposal of `IDisposable` instances.
 
-## Getting Started 🚀
+## 🚀 Getting Started
 
 ### Installation
 
@@ -73,7 +73,7 @@ DIContainer and its entries implement IDisposable. Call Dispose() to clean up al
 container.Dispose();
 ```
 
-## Example 🧩
+## 🧩 Example
 
 ```csharp
 public interface IService {}
