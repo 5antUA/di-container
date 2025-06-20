@@ -2,7 +2,7 @@
 
 A simple and lightweight dependency injection (DI) container written in C#.
 
-### Features
+## Features
 
 - Register factories and instances with optional tags.
 - Support for singleton instances via `.AsSingle()`.
@@ -12,7 +12,7 @@ A simple and lightweight dependency injection (DI) container written in C#.
 
 ## Getting Started
 
-### Installation
+##№ Installation
 
 Just include `DIContainer.cs` and `DIEntry.cs` in your project under the `RostCont` namespace.
 
