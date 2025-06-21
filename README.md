@@ -99,7 +99,9 @@ var app = container.Resolve<App>();
 ```
 ---
 
-👨‍💻 Author
+## 👨‍💻 Author
 Rostyslav Kashper
+
 Rust dev / Game dev
+
 GitHub: [5antUA](https://github.com/5antUA)
