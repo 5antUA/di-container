@@ -97,3 +97,9 @@ container.RegisterFactory(c => new App(c.Resolve<IService>()));
 
 var app = container.Resolve<App>();
 ```
+---
+
+👨‍💻 Author
+Rostyslav Kashper
+Rust dev / Game dev
+GitHub: [5antUA](https://github.com/5antUA)
