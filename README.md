@@ -97,6 +97,7 @@ container.RegisterFactory(c => new App(c.Resolve<IService>()));
 
 var app = container.Resolve<App>();
 ```
+
 ---
 
 ## 👨‍💻 Author
